@@ -1,0 +1,26 @@
+{
+    "name": "mansuang/jokes",
+    "description": "Create random jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mansuang",
+            "email": "mansaung@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mansuang\\Jokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mansuang\\Jokes\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
